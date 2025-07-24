@@ -1,15 +1,20 @@
+# GoImageCompressor
 
-# imgtool
+📦 A fast and easy-to-use CLI image compression tool written in Go.  
+Supports JPEG, PNG, and WebP formats — including batch processing and rotation fix.
 
-A CLI tool to compress images written in Go.
+---
 
-## Features
+## 🚀 Features
 
-- Supports input files or folders
-- Supports JPEG, PNG, and WebP formats
-- Customizable output format and quality
-- Adds suffix to compressed images
-- CLI usage with simple commands
+- ✅ Supports input files and entire folders
+- 🖼️ Converts images to WebP or keeps original format
+- 📉 Shows original vs compressed size with compression percentage
+- ⏱️ Displays processing time per image
+- 🔄 Automatically corrects image rotation using EXIF
+- ⚙️ Adjustable quality and lossless options for WebP
+
+---
 
 ## Installation
 
@@ -42,6 +47,12 @@ imgtool compress [flags]
 imgtool compress --input ./images --output ./out --format webp --quality 70 --suffix _min
 imgtool compress -i ./images -o ./images -f original  -s "_min" -q 80
 ```
+
+### Output Sample
+🔄 Compressing: ./images/pic1.jpg
+📉 Reduced: (77.74% smaller)
+⏱️ Time: 58ms
+
 
 ## License
 
