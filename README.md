@@ -12,7 +12,7 @@ Supports JPEG, PNG, and WebP formats — including batch processing and rotation
 - 📉 Shows original vs compressed size with compression percentage
 - ⏱️ Displays processing time per image
 - 🔄 Automatically corrects image rotation using EXIF
-- ⚙️ Adjustable quality and lossless options for WebP
+- ⚙️ Adjustable quality options for WebP
 
 ---
 
